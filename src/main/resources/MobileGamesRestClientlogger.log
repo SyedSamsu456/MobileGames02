@@ -1,0 +1,56 @@
+28-12-2021 13:46:05 - INFO  com.capg.mobilegamesrest.MobileGamesRestApplication : No active profile set, falling back to default profiles: default
+28-12-2021 13:46:06 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-12-2021 13:46:06 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+28-12-2021 13:46:06 - INFO  org.springframework.cloud.context.scope.GenericScope : BeanFactory id=e05666a1-923d-3920-a6c0-a941c5795b15
+28-12-2021 13:46:07 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9091 (http)
+28-12-2021 13:46:07 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+28-12-2021 13:46:07 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.55]
+28-12-2021 13:46:07 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+28-12-2021 13:46:07 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1859 ms
+28-12-2021 13:46:07 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+28-12-2021 13:46:07 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+28-12-2021 13:46:07 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+28-12-2021 13:46:08 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.1.Final
+28-12-2021 13:46:08 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-12-2021 13:46:08 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+28-12-2021 13:46:08 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-12-2021 13:46:08 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-12-2021 13:46:09 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-12-2021 13:46:10 - INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+28-12-2021 13:46:10 - WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+28-12-2021 13:46:10 - INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 17 endpoint(s) beneath base path '/actuator'
+28-12-2021 13:46:10 - INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Disable delta property : false
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Application is null : false
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Application version is -1: true
+28-12-2021 13:46:10 - INFO  com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : The response status is 200
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1640679371162 with initial instances count: 1
+28-12-2021 13:46:11 - INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MOBILEGAMESRESTCLIENT with eureka with status UP
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1640679371165, current=UP, previous=STARTING]
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : DiscoveryClient_MOBILEGAMESRESTCLIENT/host.docker.internal:mobilegamesrestclient:9091: registering service...
+28-12-2021 13:46:11 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9091 (http) with context path ''
+28-12-2021 13:46:11 - INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 9091
+28-12-2021 13:46:11 - INFO  com.netflix.discovery.DiscoveryClient : DiscoveryClient_MOBILEGAMESRESTCLIENT/host.docker.internal:mobilegamesrestclient:9091 - registration status: 204
+28-12-2021 13:46:11 - INFO  com.capg.mobilegamesrest.MobileGamesRestApplication : Started MobileGamesRestApplication in 8.705 seconds (JVM running for 9.918)
+28-12-2021 13:46:53 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+28-12-2021 13:46:53 - INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application MOBILEGAMESRESTCLIENT with eureka with status DOWN
+28-12-2021 13:46:53 - INFO  com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1640679413903, current=DOWN, previous=UP]
+28-12-2021 13:46:53 - INFO  com.netflix.discovery.DiscoveryClient : DiscoveryClient_MOBILEGAMESRESTCLIENT/host.docker.internal:mobilegamesrestclient:9091: registering service...
+28-12-2021 13:46:53 - INFO  com.netflix.discovery.DiscoveryClient : DiscoveryClient_MOBILEGAMESRESTCLIENT/host.docker.internal:mobilegamesrestclient:9091 - registration status: 204
+28-12-2021 13:46:54 - INFO  org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+28-12-2021 13:46:54 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+28-12-2021 13:46:54 - INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+28-12-2021 13:46:54 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+28-12-2021 13:46:54 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+28-12-2021 13:46:54 - INFO  com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+28-12-2021 13:46:57 - INFO  com.netflix.discovery.DiscoveryClient : Unregistering ...
+28-12-2021 13:46:57 - INFO  com.netflix.discovery.DiscoveryClient : DiscoveryClient_MOBILEGAMESRESTCLIENT/host.docker.internal:mobilegamesrestclient:9091 - deregister  status: 200
+28-12-2021 13:46:57 - INFO  com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
